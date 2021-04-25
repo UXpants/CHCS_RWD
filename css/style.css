@@ -1,6 +1,8 @@
 body {
     font-family: 'Amaranth', sans-serif;
     font-family: 'Noto Sans', sans-serif;
+    font-size: 1.125rem;
+    line-height: 16px;
     padding: 0;
     margin: 0;
 }
@@ -54,6 +56,30 @@ h1 {
     /* Shadow/small */
     box-shadow: 0px 2px 4px rgba(8, 10, 10, 0.075);
     border-radius: 8px;
+  }
+  #headingOne, #headingTwo, #headingThree {
+    background-color: #CFEDD7;
+  }
+  .adult-header a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #080A0A;
+  }
+  .adult-card-green {
+    background-color: #9FDBB0;
+    /* Shadow/small */
+    box-shadow: 0px 2px 4px rgba(8, 10, 10, 0.075);
+    border-radius: 0px 0px 8px 8px;
+  }
+  .card-header .fa {
+    transition: .3s transform ease-in-out;
+    transform: rotate(45deg);
+  }
+  .card-header .collapsed .fa {
+    transform: rotate(90deg);
   }
   .card-ltgreen {
     background-color: #E7F6EB;
