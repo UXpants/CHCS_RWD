@@ -1,6 +1,8 @@
 body {
     font-family: 'Amaranth', sans-serif;
     font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 h1 {
     font-family: Amaranth;
@@ -13,11 +15,25 @@ h1 {
     text-transform: capitalize;
     color: #313B3B;
 }
+.nav-item {
+    color: #080A0A;
+}
+.nav-link {
+    color: #313B3B;
+}
 .programs {
     background: #FAF9F6;
 }
 .resources {
     background: #FAF9F6;
+    align-self: center;
+}
+.involved {
+    background: #FAF9F6;
+}
+.hero {
+    margin-top: 130px;
+    margin-bottom: 80px;
 }
 .Rectangle-1 {
     width: 100%;
@@ -38,6 +54,23 @@ h1 {
     /* Shadow/small */
     box-shadow: 0px 2px 4px rgba(8, 10, 10, 0.075);
     border-radius: 8px;
+  }
+  .card-ltgreen {
+    background-color: #E7F6EB;
+    /* Shadow/small */
+    box-shadow: 0px 2px 4px rgba(8, 10, 10, 0.075);
+    border-radius: 8px;
+  }
+  .card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
   }
   .card-yellow {
     background-color: #FEF4CF;
@@ -87,3 +120,20 @@ h1 {
     letter-spacing: -0.01em;
     color: #080A0A;
   }
+  .btn-blue-outline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 48px;
+    background: #FFFFFF;
+    border: 2px solid #A2E5F2;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(8, 10, 10, 0.075);
+    border-radius: 8px;
+  }
+  .page-footer {
+    background-color: #abecd6;
+    color: #080A0A;
+    padding: 60px 0 30px;
+}

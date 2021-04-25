@@ -15,17 +15,13 @@
     <title>The Center for Health Care Services</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg  navbar-light bg-light Rectangle-1">
+    <nav class="navbar navbar-expand-md Rectangle-1 fixed-top">
       <a class="navbar-brand" href="#">The Center for Health Care Services</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Adult Programs</a>
           </li>
@@ -44,135 +40,155 @@
         </ul>
       </div>
     </nav>
-    <section class="hero my-5">
-      <div class="row container py-3">
-        <div class="col-auto"></div>
-        <div class="col-5">
-          <img src="images/roadSign.svg" width="100%">
+    <!-- Hero section -->
+    <section class="hero container-fluid">
+      <div class="row p-3">
+        <div class="col-lg-2 col-md-3 col-sm-12"></div>
+        <div class="col-lg-5 col-md-3 col-sm-12">
+          <img src="images/roadSign.svg" class="img-fluid">
         </div>
-        <div class="col-5 align-self-center">
+        <div class="col-lg-4 col-md-3 col-sm-12">
           <h1 class="display-2">You are not Alone</h1>
-            <button class="btn-yellow">Get Help</button>
+          <button class="btn-yellow">Get Help</button>
         </div>
-        <div class="col-auto"></div>
+        <div class="col-lg-1 col-md-3 col-sm-12"></div>
       </div>
     </section>
-    <section class="programs my-5">
-      <div class="row contianer py-3">
-        <div class="col-1"></div>
-        <div class="col-2">
+    <!-- Programs section -->
+    <section class="programs container-fluid py-5">
+      <div class="row pb-3">
+        <div class="col d-flex justify-content-center">
           <h1>Programs</h1>
         </div>
-        <div class="col-9"></div>
       </div>
-      <div class="row container py-3">
-        <div class="col-1"></div>
-          <div class="col">
+      <div class="row p-3">
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center p-3">
           <div class="card border-0" style="width: 18rem;">
             <div class="card-body card-green">
-              <h3 class="card-title">Adult</h3><div><a href="#"><img src="images/carbon_chevron-right.svg" width="44px" height="44px" style="top: 20px; right: 20px;"></a></div>
+              <h2 class="card-title">Adult<a href="#"><img src="images/carbon_chevron-right.svg" width="36px" height="36px" style="top: 20px; right: 20px;"></a></h2>
               <p class="card-text">Specialized services provided for adults 18 years and older.</p>
             </div>
           </div>
-        </div>
-        <div class="col">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center p-3">
           <div class="card border-0" style="width: 18rem;">
-            <div class="card-body card-green">
-              <h3 class="card-title">Children</h3>
+            <div class="card-body card-ltgreen">
+              <h2 class="card-title">Children</h2>
               <p class="card-text">Children programs and resources will be coming soon.</p>
             </div>
           </div>
-        </div>
-        <div class="col"></div>
-      </div>
+          </div>
+      </div>   
     </section>
-    <section class="center">
-      <div class="row container py-3">
-        <div class="col-2"></div>
-        <div class="col-5">
+    <!-- CHCS section -->
+    <section class="center container-fluid py-5">
+      <div class="row p-3">
+        <div class="col-lg-1 col-md-3 col-sm-12"></div>
+        <div class="col-lg-5 col-md-3 col-sm-12">
           <h1>The Center for Health Care Services</h1>
           <h6>Mental Health and Substance Abuse Solutions</h6>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-3 col-sm-12 pt-4">
           <h3>Our Mission</h3>
           <p>The Center for Health Care Services provides integrated care to improve the lives of children and adults with mental health conditions, substance use challenges and intellectual or developmental disabilities.</p>
         </div>
-        <div class="col-1"></div>
+        <div class="col-lg-2 col-md-3 col-sm-12"></div>
       </div>
     </section>
-    <section class="resources my-5">
-      <div class="row py-5">
-        <div class="col"></div>
-        <div class="col">
-          <div class="card border-0" style="width: 18rem;">
-            <div class="card-body card-yellow">
-              <h5 class="card-title">Resources</h5>
-              <p class="card-text">Interested in learning more about mental illness, substance use disorders and developmental disabilities?</p>
-            </div>
-          </div>
+    <!-- Resources section -->
+    <section class="resources container-fluid py-5">
+      <div class="row p-3">
+        <div class="col-lg-2 col-md-3 col-sm-12"></div>
+        <div class="col-lg-4 col-md-3 col-sm-12 pb-5">
+          <h1>Resources</h1>
+          <p>Interested in learning more about mental illness, substance use disorders and developmental disabilities?</p>
+          <button class="btn-yellow">Learn More</button>
         </div>
-        <div class="col"></div>
+        <div class="col-lg-4 col-md-3 col-sm-12">
+          <img src="images/searching.svg" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12"></div>
       </div>
     </section>
-    <section class="road my-5">
-      <div class="row py-3">
-        <div class="col-1"></div>
-        <div class="col-5">
-          <img src="images/father.svg" width="100%">
+    <!-- Recovery section -->
+    <section class="road container-fluid">
+      <div class="row p-3">
+        <div class="col-lg-2 col-md-3 col-sm-12"></div>
+        <div class="col-lg-4 col-md-3 col-sm-12 pb-5">
+          <img src="images/father.svg" class="img-fluid">
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-3 col-sm-12">
           <h1>Road to Recovery</h1>
           <p>Read the stories of hope who went through the Road of recovery.</p>
           <button class="btn-yellow">Read On</button>
         </div>
-        <div class="col-1"></div>
+        <div class="col-lg-2 col-md-3 col-sm-12"></div>
       </div>
     </section>
-    <section class="involved my-5">
-      <div class="row py-3 justify-content-start">
-        <div class="col"></div>
-        <div class="col align-self-center">
-          <h1>Get Involved</h1>
-        </div>
-        <div class="col-auto align-self-center">
-          <button class="btn-blue">Donate</button>
-        </div>
-          <div class="col-auto align-self-center">
-          <button class="btn-blue">Volunteer</button>
+    <!-- Involved section -->
+    <section class="involved container-fluid">
+      <div class="row p-3 align-items-center d-flex justify-content-center">
+        <div class="col">
+          <div class="row align-items-center d-flex justify-content-center">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <h1>Get Involved</h1>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+             <button class="btn-blue">Donate</button>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <button class="btn-blue-outline">Volunteer</button>
+            </div>
           </div>
-          <div class="col"></div>
         </div>
+      </div>
     </section>
-    <footer class="foot">
-      <nav class="navbar navbar-expand-lg Rectangle-2">
-        <a class="navbar-brand" href="#">The Center for Health Care Services</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Adult Programs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Get Involved</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Who We Are</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Employee Portal</a>
-            </li>
-          </ul>
+    <footer class="page-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+              <h6 class="text-uppercase font-weight-bold">The Center for Health Care Services</h6>
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Adult Programs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Get Involved</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Who We Are</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Employee Portal</a>
+                </li>
+              </ul>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+              <h6 class="text-uppercase font-weight-bold">Phone Numbers</h6>
+              <p>Telephone:
+              <br/>210-261-1000
+              <br/>Fax:
+              <br/>210-261-1816</p>
+              <h6 class="text-uppercase font-weight-bold">Address</h6>
+              <p>6800 Park Ten Blvd.,
+              <br/>Suite 200-S
+              <br/>San Antonio, Texas 78213
+              </p> 
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12">
+            <p>The Center for Health Care Services’ notice of privacy policy can be viewed here. En Español. This notice describes how health information about you may be used and disclosed and how you can get access to this information.</p>
+            <p>CHCS agrees not to discriminate in the provision of services to an individual based on: the individual’s inability to pay; whether payment for those services would be made under Medicare, Medicaid, or CHIP; the individual’s race, color, sex, national origin, disability, religion, age, sexual orientation, or gender identity.</p>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-12">
+            <img src="images/carbon_logo-facebook.svg">
+            <img src="images/carbon_logo-twitter.svg">
+            <img src="images/carbon_logo-youtube.svg">
+          </div>
         </div>
-      </nav>
+      </div>
     </footer>
 
   
