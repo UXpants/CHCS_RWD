@@ -63,8 +63,15 @@ h1 {
     box-shadow: 0px 2px 4px rgba(8, 10, 10, 0.075);
     border-radius: 8px;
   }
-  #headingOne, #headingTwo, #headingThree {
+  #headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix {
     background-color: #CFEDD7;
+  }
+  .card-header .fa {
+    transition: .3s transform ease-in-out;
+    transform: rotate(45deg);
+  }
+  .card-header .collapsed .fa {
+    transform: rotate(90deg);
   }
   .adult-header a {
     font-style: normal;
