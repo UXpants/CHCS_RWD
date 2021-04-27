@@ -52,3 +52,7 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.collapsible').collapsible();
   });
+
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
