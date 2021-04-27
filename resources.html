@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,12 +17,16 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light Rectangle-1 fixed-top">
-      <a class="navbar-brand" href="index.html">The Center for Health Care Services</a>
+      <a class="navbar-brand" href="#">The Center for Health Care Services</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+    
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="help.html">Adult Programs</a>
           </li>
@@ -54,25 +59,150 @@
         <div class="col-lg-1 col-md-3 col-sm-12"></div>
       </div>
     </section>
-    <!-- Involved section -->
-    <section class="involved container-fluid">
+    <!-- Accordian section -->
+    <section class="container-fluid">
       <div class="row p-3">
-        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-          <h1>Donate</h1>
-          <p>Did you know that the CHCS depends on sponsors, donations, grants, legislation for funding?
-          <p>Any donation helps our community heal.</p>
-          <a href="#"><button class="btn-blue">Make a donation</button></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-          <h1>Advocate</h1>
-          <p>You can also send this pre-written email to your representative to secure funding for our life-changing programs.</p>
-          <a href="#"><button class="btn-blue">Email your representative</button></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-          <h1>Volunteer</h1>
-          <h4>Join our group of passionate and enthusiastic volunteers.</h4>
-          <p>By becoming a CHCS volunteer, you are contributing to our mission of improving the lives of people with mental health disorders, substance use challenges and intellectual and developmental disabilities. CHCS Volunteers assist in various ways including data entry, events, and administrative work, and find the experience deeply rewarding.</p>
-          <p>Call us at: 210-261-1000</p>
+        <div class="accordion col-sm-12" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="resourcesOne">
+              <h4>
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Depression
+                </button>
+              </h4>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="resourcesOne" data-parent="#accordionExample">
+              <h5 class="card-title pl-3 pt-3">What is it?</h5>
+              <div class="card-body">
+                Everyone has felt sad or blue from time to time, but major depression goes well beyond temporary feelings of sadness or going through a rough spot. Depression (major depressive disorder or clinical depression) is a common but serious mood disorder that can cause severe symptoms affecting how you feel, think, and handle daily activities. Some will only experience one depressive episode in a lifetime, but for most, depressive disorder recurs. Left untreated, depression can be a devastating plan for the person and their family. Fortunately, with early detection, diagnosis and a treatment plan consisting of medication, psychotherapy and healthy lifestyle choices, many people get better.
+              </div>
+              <h5 class="card-title pl-3 pt-3">What does it look like?</h5>
+              <div class="card-body">
+                Depression is not uniform, Depression is not uniform. Signs and symptoms may be experienced by some sufferers and not by others. How severe the symptoms are, and how long they last depends on the individual and his illness. Below is a list of the most common symptoms: Constant feelings of sadness, anxiety, and emptiness:
+                <ul>
+                  <li>Changes in sleep, appetite and energy levels may be increased or decreased</li>
+                  <li>Lack of concentration</li>
+                  <li>Loss of energy or agitated purposeless energy</li> 
+                  <li>Lack of interest in activities once enjoyed by the person, Hopelessness or guilty thoughts</li> 
+                  <li>Physical aches and pains</li>
+                  <li>Suicidal thoughts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="resourcesTwo">
+              <h4>
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Anxiety
+                </button>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="resourcesTwo" data-parent="#accordionExample">
+              <h5 class="card-title pl-3 pt-3">What is it?</h5>
+              <div class="card-body">
+                Anxiety is a normal reaction to stress that helps a person cope with a tense situation and serves to improve performance. For example, driving in heavy traffic is a common source of anxiety, but it helps keep us alert and cautious to avoid accidents. Anxiety can also interfere with a person’s life by causing intense feelings of fear or distress, and can impair a person’s relationships or ability to work or go to school if not treated.
+              </div>
+              <h5 class="card-title pl-3 pt-3">What does it look like?</h5>
+              <div class="card-body">
+                There are various types of anxiety disorders including generalized anxiety disorder, panic disorder, social anxiety disorder and obsessive compulsive disorder and phobias. However, all anxiety disorders have one thing in common: persistent, excessive fear or worry in situations that are not threatening.
+              </div>
+              <h5 class="card-title pl-3 pt-3">How to manage anxiety?</h5>
+              <div class="card-body">
+                <ul>
+                  <li>Be Open to the Present and Practice Mindfulness</li>
+                  <li>Reduce Stress by Indulging in Relaxing Activities</li> 
+                  <li>Light Exercise</li> 
+                  <li>Mood and Food</li>
+                  <li>Deep Breathing and Relaxation Techniques</li>
+                </ul>
+                <img class="rounded-circle" src="images/inhale.gif">
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="resourcesThree">
+              <h4>
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Schizophrenia
+                </button>
+              </h4>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="resourcesThree" data-parent="#accordionExample">
+              <h5 class="card-title pl-3 pt-3">What is it?</h5>
+              <div class="card-body">
+                Schizophrenia is a severe mental health disorder that affects how a person sees, hears, smells and feels. They also have trouble recognizing emotions, relating to others and may seem like they have lost touch with reality.
+              </div>
+              <h5 class="card-title pl-3 pt-3">What does it look like?</h5>
+              <div class="card-body">
+                Although schizophrenia is not as common as other mental health disorders, the symptoms can be very disabling and include:
+                <ul>
+                  <li>Delusions and/or hallucinations</li>
+                  <li>Disorganized thinking</li>
+                  <li>Loss of interesting and motivation</li> 
+                  <li>Social withdrawal</li> 
+                  <li>Unable to express emotion</li>
+                  <li>Movement disorders (agitated body movements)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="resourcesFour">
+              <h4>
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Substance/Alcohol Use Disorder
+                </button>
+              </h4>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="resourcesFour" data-parent="#accordionExample">
+              <h5 class="card-title pl-3 pt-3">What is it?</h5>
+              <div class="card-body">
+                Being caught in the endless cycle of addiction, often combined with mental illness, can destroy lives, sever families and cause people to become homeless. The Center for Health Care Services helps people regain control of their sobriety and transforms lives by offering safe and effective substance use treatment, short-term residential assistance and long-term integrated physical and mental health support.
+              </div>
+              <h5 class="card-title pl-3 pt-3">What does it look like?</h5>
+              <div class="card-body">
+                Substance Use Disorder is a complex a condition in which there is uncontrolled use of a substance despite harmful consequences. People with SUD have an intense focus on using a certain substance(s) such as alcohol, tobacco, or illicit drugs, to the point where the person’s ability to function in day to day life becomes impaired. People keep using the substance even when they know it is causing or will cause problems. The most severe SUDs are sometimes called addictions.
+                <br/>
+                <br/>
+                Alcohol use disorder (which includes a level that's sometimes called alcoholism) is a pattern of alcohol use that involves problems controlling your drinking, being preoccupied with alcohol, continuing to use alcohol even when it causes problems, having to drink more to get the same effect, or having withdrawal symptoms when you rapidly decrease or stop drinking.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="resourcesFive">
+              <h4>
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Bipolar Disorder
+                </button>
+              </h4>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="resourcesFive" data-parent="#accordionExample">
+              <h5 class="card-title pl-3 pt-3">What is it?</h5>
+              <div class="card-body">
+                Bipolar disorder is a brain disorder that causes dramatic shifts in a person’s mood, energy, activity levels and the ability to think clearly. Symptoms of bipolar disorder can be severe and are different from the normal ups and downs that everyone goes through from time to time. People living with bipolar disorder often experience extreme lows (depression) and extreme highs (mania), and sometimes feel paranoid, believe things that aren’t true or hear voices. These lows and highs usually occur in cycles, and may last weeks or even months.
+              </div>
+              <h5 class="card-title pl-3 pt-3">What does it look like?</h5>
+              <div class="card-body">
+                It is important to seek treatment immediately for any one of the following symptoms associated with bipolar disorder:
+                <ul>
+                  <li>Impulsive behavior and poor judgment is putting job, home-life or person at risk</li>
+                  <li>Staying awake for 4 or more days in a row</li>
+                  <li>Periods of intense depression and isolation</li>
+                </ul>
+                Symptoms of either a manic or depressive episode may include:
+                <ul>
+                  <li>Severe mood changes; feeling “too happy” or very depressed for weeks</li>
+                  <li>Having a lot of energy or very little energy</li>
+                  <li>Talking very fast, being unable to get a complete thought out</li> 
+                  <li>Getting little or no sleep for many days in a row without feeling tired</li> 
+                  <li>Engaging in reckless behaviors such as spending sprees, drug use or impulsive sex</li>
+                  <li>Believing one has increased abilities (delusional)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -140,15 +270,21 @@
       </div>
     </footer>
 
-  
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <!-- START Smith.ai School Chat -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- START Smith.ai Center for Health Services prototype Chat -->
     <script type="text/javascript">
-    window.SMITH={},window.SMITH.smithChatAccount="e12418a4-675c-412f-80c0-080d3a9bc2ef"; var script=document.createElement("script"); script.async=!0, script.type="text/javascript",script.src="https://app.smith.ai/chat/widget-latest.js",document.getElementsByTagName("HEAD").item(0).appendChild(script);
+      window.SMITH={},window.SMITH.smithChatAccount="e12418a4-675c-412f-80c0-080d3a9bc2ef"; var script=document.createElement("script"); script.async=!0, script.type="text/javascript",script.src="https://app.smith.ai/chat/widget-latest.js",document.getElementsByTagName("HEAD").item(0).appendChild(script);
     </script>
-    <!-- END Smith.ai School Chat -->
+    <!-- END Smith.ai Center for Health Services prototype Chat -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
