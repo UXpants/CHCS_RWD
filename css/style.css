@@ -223,8 +223,11 @@ h4 {
 .card-header-yellow {
   background-color: #FEF4CF!important;
 }
+.hero-title {
+  font-size: 4.88rem!important;
+}
 @media only screen and (max-width: 600px) {
-  .display-2 {
-    font-size: 3.75rem!important;
+  .hero-title {
+    font-size: 4.0rem!important;
   }
 }
