@@ -225,7 +225,6 @@ h4 {
 }
 @media only screen (max-width: 600px) {
   .display-2 {
-    font-size: 4.88em;
-    
+    font-size: 4.25em;
   }
 }
