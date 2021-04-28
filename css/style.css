@@ -223,3 +223,9 @@ h4 {
 .card-header-yellow {
   background-color: #FEF4CF!important;
 }
+@media only screen (max-width: 600px) {
+  .display-2 {
+    font-size: 4.88em;
+    
+  }
+}
