@@ -6,10 +6,10 @@ html {
   margin: 0;
 }
 body {
-    font-family: 'Noto Sans', sans-serif;
-    line-height: 16px;
-    padding: 0;
-    margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 16px;
+  padding: 0;
+  margin: 0;
 }
 h1 {
     font-family: Amaranth;
@@ -234,13 +234,19 @@ h4 {
   font-size: 4.0rem!important;
 }
 }
-@media only screen and (max-width: 600px and 990px) { 
+@media only screen and (max-width: 992px) { 
 .nav-item {
-  width: 330px;
+  width: auto;
   float: right!important;
   margin-top: -6px;
   padding: 4px 15px 4px 32px;
   box-shadow: 0 2px 4px 0 rgba(8, 10, 10, 0.08);
   background: linear-gradient(90deg, #fbed96, #abecd6);
+  }
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1440px) { 
+  .container-xl {
+    max-width: 1440px;
   }
 }
