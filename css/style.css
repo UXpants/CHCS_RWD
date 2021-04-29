@@ -244,7 +244,7 @@ h4 {
   background: linear-gradient(90deg, #fbed96, #abecd6);
   }
 }
-// Large devices (desktops, less than 1200px)
+
 @media (max-width: 1440px) { 
   .container-xl {
     max-width: 1440px;
