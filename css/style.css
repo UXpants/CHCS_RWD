@@ -245,8 +245,8 @@ h4 {
   }
 }
 
-@media (max-width: 1440px) { 
+@media (max-width: 1920px) { 
   .container-xl {
-    max-width: 1440px;
+    min-width: 1440px;
   }
 }
